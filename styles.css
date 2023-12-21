@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Silkscreen&display=swap');
+/*font-family: 'Roboto', sans-serif;
+font-family: 'Silkscreen', sans-serif;*/
+
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.left-side {
+  background-image: url(./images/backgroundimage.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 78px;
+  width: 98px;
+}
+
+.logo-name {
+  font-family: 'Silkscreen', sans-serif;
+  font-size: 30px;
+  width: 250px;
+}
+
+.logo-section {
+  display: flex;
+  background-color: rgba(121, 121, 121, 0.3);
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
