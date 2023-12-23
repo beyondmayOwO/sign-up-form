@@ -37,7 +37,6 @@ body {
 }
 
 /* Right side heading section */
-
 .headings {
   display: flex;
   flex-direction: column;
@@ -70,29 +69,28 @@ form {
   background-color: #fff;
   font-family: 'Roboto', sans-serif;
   font-size: 13px;
+  padding-top: 20px;
 }
 
 ul {
   list-style-type: none;
-  margin: 0;
   padding: 0;
+  margin-top: 30px;
   display: flex;
   flex-wrap: wrap;
 }
 
 li {
-  margin: 20px;
-  /*padding-right: 400px;*/
+  margin-bottom: 25px;
+  margin-right: 85px;
   display: flex;
   flex-direction: column;
 }
 
 label {
-  /*font-family: 'Roboto', sans-serif;*/
   color: rgb(77, 77, 77);
   font-weight: bold;
   letter-spacing: 2px;
-  /*font-size: 13px;*/
 }
 
 input {
@@ -102,8 +100,20 @@ input {
   font-weight: bold;
   font-size: 15px;
   color: rgb(51, 51, 51);
+  border: 1px solid rgb(188, 188, 188);
 }
 
 input:focus {
-  border-color: rgb(7, 114, 255);
+  border: 1px solid rgb(61, 109, 151);
+  outline: 1px solid rgb(67, 115, 156);
+}
+
+/*input:valid {
+  border: 1px solid rgb(68, 156, 68);
+  outline: 1px solid rgb(101, 163, 101);
+}*/
+
+input:invalid {
+  border: 1px solid rgb(240, 43, 43);
+  outline: 1px solid rgb(235, 90, 90);
 }
