@@ -27,7 +27,7 @@
         <ul>
           <li>
             <label for="first-name">FIRST NAME</label>
-            <input type="text" name="user-first-name" id="first-name">
+            <input type="text" name="user-first-name" id="first-name" autofocus>
           </li>
 
           <li>
@@ -47,12 +47,16 @@
 
           <li>
             <label for="password">PASSWORD</label>
-            <input type="password" name="user-password" id="password">
+            <input type="password" name="user-password" id="password" placeholder="e.g. Example123!">
+            <span class="password-alert">*Must include uppercase, lowercase, numbers and symbols.</span>
           </li>
 
           <li>
             <label for="confirm-password">CONFIRM PASSWORD</label>
             <input type="password" name="user-confirmed-password" id="confirm-password">
+            <span class="confirm-password-alert">
+
+            </span>
           </li>
         </ul>
       </div>
